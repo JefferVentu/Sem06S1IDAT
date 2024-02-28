@@ -38,6 +38,12 @@ p {
   padding-left: 25px;
 }
 
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .Navigation {
   background-color: red;
 }
