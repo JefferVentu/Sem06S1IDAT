@@ -16,24 +16,24 @@ body{
 }
 
 // VARIABLES
-//$first-color: red;
-//$xxl: 100px;
-//$xl: 50px;
+$first-color: red;
+$xxl: 100px;
+$xl: 50px;
 
-//h1{
-//    color: $first-color;
-//    font-size: $xl * 2;
-//}
+h1{
+    color: $first-color;
+    font-size: $xl * 2;
+}
 
 //NESTING
-//.Navigation{
-//    background-color: red;
+.Navigation{
+    background-color: red;
 
-//    &-Item{
-//        color: blue;
-//    }
-//    &-Link{
-//        color: blue;
-//    }
-//}
+    &-Item{
+        color: blue;
+    }
+    &-Link{
+        color: blue;
+    }
+}
 
