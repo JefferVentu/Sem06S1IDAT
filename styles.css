@@ -19,4 +19,31 @@ body {
   background-color: #242424;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  padding: 15px;
+  color: red;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+  padding: 3px;
+  color: green;
+  padding-left: 15px;
+}
+
+p {
+  padding-left: 25px;
+}
+
+.Navigation {
+  background-color: red;
+}
+.Navigation-Item {
+  color: blue;
+}
+.Navigation-Link {
+  color: blue;
 }/*# sourceMappingURL=styles.css.map */

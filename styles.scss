@@ -17,12 +17,25 @@ body{
 
 // VARIABLES
 $first-color: red;
+$second-color: green;
 $xxl: 100px;
 $xl: 50px;
 
 h1{
+    padding: 15px;
     color: $first-color;
-    font-size: $xl * 2;
+    font-size: $xxl;
+    text-align: center;
+}
+
+h2{
+    padding: 3px;
+    color: $second-color;
+    padding-left: 15px;
+}
+
+p{
+    padding-left: 25px;
 }
 
 //NESTING
