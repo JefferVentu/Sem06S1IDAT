@@ -1,0 +1,39 @@
+@import '_footer.scss';
+
+
+*, 
+*::before, 
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #242424;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+// VARIABLES
+//$first-color: red;
+//$xxl: 100px;
+//$xl: 50px;
+
+//h1{
+//    color: $first-color;
+//    font-size: $xl * 2;
+//}
+
+//NESTING
+//.Navigation{
+//    background-color: red;
+
+//    &-Item{
+//        color: blue;
+//    }
+//    &-Link{
+//        color: blue;
+//    }
+//}
+
