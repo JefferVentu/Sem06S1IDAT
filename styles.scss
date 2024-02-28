@@ -18,6 +18,7 @@ body{
 // VARIABLES
 $first-color: red;
 $second-color: green;
+$third-color: yellow;
 $xxl: 100px;
 $xl: 50px;
 
@@ -31,17 +32,31 @@ h1{
 h2{
     padding: 3px;
     color: $second-color;
-    padding-left: 15px;
+    padding-left: 70px;
 }
 
 p{
-    padding-left: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-img{
+.distrib{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imagenes{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.link{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 40px;
 }
 
 //NESTING
